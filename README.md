@@ -44,6 +44,10 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 100
 
 ### Step-by-Step Procedure
 
+Prerequisites
+* Need to install [Open 3D](https://github.com/isl-org/Open3D) (v0.9.0) first
+* Need to install cuda 11.3 at local machine for compiling ROS packages
+
 Use the following commands to create a new catkin workspace and a virtual environment with all the required dependencies.
 
 ```bash
